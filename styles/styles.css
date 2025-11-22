@@ -247,3 +247,9 @@ h2 { /* El encabezado de otro color, tamaño y subrayado*/
     text-align: center;
 }
 
+.mantener-negrita{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    cursor: url(../imgs/cur223.cur), pointer;
+}
