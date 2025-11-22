@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Mochiy+Pop+P+One&display=swap"); /* FUENTES */
 
 /* 1. ESTRUCTURA BÁSICA DE LA PÁGINA WEB */
+
 body {
 background: url(../imgs/FondoDulce.png);
 background-size: cover;

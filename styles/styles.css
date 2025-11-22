@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Mochiy+Pop+P+One&display=swap"); /* FUENTES */
 
 /*1.ESTRUCTURA BÁSICA DE LA PÁGINA WEB*/
+
 body {
 background: url(../imgs/FondoDulce.png);
 background-size: cover;
@@ -24,7 +25,7 @@ display: flex;
 align-items: center;
 border-radius: 100px;
 position: sticky;
-top: 4px;
+top: 0px;
 padding: 0 15px; /* Pequeño padding interno para que no toque los bordes */
 box-sizing: border-box; /* Incluir padding en el ancho */
 z-index: 5;
@@ -37,7 +38,7 @@ cursor:url(../imgs/cur223.cur), pointer;
 }
 
 .main-logo {
-position: absolute; 
+position: fixed; 
 top: 20px;
 left: 20px; /* Margen izquierdo más pequeño */
 z-index: 4; /* Aseguramos que esté por encima del header */
