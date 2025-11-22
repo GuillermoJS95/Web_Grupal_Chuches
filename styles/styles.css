@@ -75,10 +75,26 @@ border: 3px dashed #e6c3e3; /* Borde con puntitos */
 background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../imgs/FondoBanner.png);
 background-size: cover;
 color: #ffffff;
-padding: 15px 0;
+padding: 1px 0;
 margin-top: 30px;
 position: static;
 width: 100%;
+}
+
+.footer-text {
+font-family: "Mochiy Pop P One", sans-serif;
+font-size: 12px; /* Tamaño un poco más grande */
+color: #ffffff;
+text-shadow: 2px 2px 5px rgba(1, 1, 1, 1); /* Sombra para mayor legibilidad */
+position: relative;
+font-weight:bolder;
+z-index: 2; /* Asegurar que el texto esté sobre el fondo */
+}
+
+.separador-horizontal-footer {
+    /* Convierte el span en un bloque que permite separar ambos textos del footer */
+    display: inline-block; 
+    margin-right: 1000px; 
 }
 
 /* 2. LO DE DENTRO DEL MAIN*/
@@ -220,9 +236,9 @@ color: black
 .precio-producto {
  font-family:"Mochiy Pop P One", sans-serif;
 font-size: 20px;
-color: black;
+color: rgb(0, 199, 76);
 font-weight: 700;
-margin-top: 2px;
+margin-top:5px
 }
 
 /* SOLO UTILIZADO EN LA SECCIÓN DE INFORMACIÖN*/

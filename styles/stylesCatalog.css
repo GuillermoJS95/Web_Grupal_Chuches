@@ -74,11 +74,26 @@ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../imgs/FondoBanner.png);
 background-size: cover;
 color: #ffffff;
-padding: 15px 0;
-margin-top: 50px;
-font-size: 16px;
-position:absolute;
+padding: 1px 0;
+margin-top: 30px;
+position: static;
 width: 100%;
+}
+
+.footer-text {
+font-family: "Mochiy Pop P One", sans-serif;
+font-size: 12px; /* Tamaño un poco más grande */
+color: #ffffff;
+text-shadow: 2px 2px 5px rgba(1, 1, 1, 1); /* Sombra para mayor legibilidad */
+position: relative;
+font-weight:bolder;
+z-index: 2; /* Asegurar que el texto esté sobre el fondo */
+}
+
+.separador-horizontal-footer {
+    /* Convierte el span en un bloque que permite separar ambos textos del footer */
+    display: inline-block; 
+    margin-right: 1000px; 
 }
 
 /* 2. TABLAS Y PRODUCTO */
