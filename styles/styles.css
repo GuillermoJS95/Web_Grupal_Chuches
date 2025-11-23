@@ -15,16 +15,15 @@ cursor: url(../imgs/cur116.cur), default;
 }
 
 .header {
-margin: 25px auto 40px auto; /* Centrado fluido en lugar de márgenes fijos */
-max-width: 920px; /* Limita el ancho en escritorio */
-width: 90%; /* Se adapta a la ventana */
-height: 50px;
-background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../imgs/FondoBanner.png);
+margin: 25px auto 40px auto; 
+max-width: 920px; /* Limita el ancho   */
+height: 50px; /* Altura banner */
+background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../imgs/FondoBanner.png); /* Sombreado para destacar */
 background-size: cover;
 display: flex;
 align-items: center;
 border-radius: 100px;
-position: sticky;
+position: sticky; /* Para que se quede pegado arriba, como en la Web de las Plantas*/
 top: 0px;
 padding: 0 15px; /* Pequeño padding interno para que no toque los bordes */
 box-sizing: border-box; /* Incluir padding en el ancho */
@@ -38,22 +37,21 @@ cursor:url(../imgs/cur223.cur), pointer;
 }
 
 .main-logo {
-position: fixed; 
+position: fixed; /* Pegado en el mismo lugar siempre*/
 top: 20px;
-left: 20px; /* Margen izquierdo más pequeño */
-z-index: 4; /* Aseguramos que esté por encima del header */
+left: 20px; 
 }
 
 
 .contenedor-enlaces {
-display: flex;
+display: flex; /* Contenedor que alinea los elementos */
 gap: 25px; /* Espacio entre ítems de navegación */
 margin-left: 120px;
 }
 .enlace { /* Para eliminar el color morado y subrayado típico */
 text-decoration: none;
 color: white;
-text-shadow: 2px 2px 5px rgba(1, 1, 1, 1);
+text-shadow: 2px 2px 5px rgba(1, 1, 1, 1); /* Sombrita para destacar*/
 font-weight: bolder;
 cursor:url(../imgs/cur223.cur), pointer;
 }
@@ -89,7 +87,7 @@ font-family: "Mochiy Pop P One", sans-serif;
 font-size: 12px; /* Tamaño un poco más grande */
 color: #ffffff;
 text-shadow: 2px 2px 5px rgba(1, 1, 1, 1); /* Sombra para mayor legibilidad */
-position: relative;
+position: relative; /* Que dependa del contenedor footer */
 font-weight:bolder;
 z-index: 2; /* Asegurar que el texto esté sobre el fondo */
 }
