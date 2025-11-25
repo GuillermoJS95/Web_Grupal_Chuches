@@ -14,6 +14,10 @@ text-align: center;
 cursor: url(../imgs/cur116.cur), default; 
 }
 
+p {
+ color: black;
+}
+
 .header {
 margin: 25px auto 40px auto;
 max-width: 920px;
@@ -71,6 +75,88 @@ border: 3px dashed #e6c3e3;
 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Estilo para cada sección de producto */
+.second-container {
+width: 800px;
+margin: 0 auto;
+padding: 0; /* Quitamos el padding aquí y lo ponemos en el contenido */
+background-color: #e1f4b5; /* Fondo beige claro */
+border-radius: 20px;
+border: 3px dashed #e6c3e3;
+overflow: hidden; /* Asegura que el border-radius se aplique bien */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el encabezado de la sección (el banner verde oscuro) */
+.header-producto {
+    background-color: #38673f; /* Verde oscuro */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.header-producto h2 {
+    margin: 0;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Contenedor del subtítulo y el detalle del producto (dentro del second-container) */
+.detalle-producto {
+    padding: 20px;
+}
+
+/* Estilo para el nombre científico/subtítulo */
+.nombre-cientifico {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    color: #38673f; /* Verde oscuro */
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Contenedor Flex para la imagen y la descripción */
+.contenido-producto {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* Estilo para el contenedor de la imagen */
+.imagen-producto {
+    flex: 0 0 35%; /* La imagen ocupa el 35% del espacio */
+    max-width: 35%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.imagen-producto img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilo para la descripción */
+.descripcion-producto {
+    flex: 1; /* El texto ocupa el espacio restante */
+    text-align: left;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 0.95em;
+    color: #333333;
+    padding-right: 10px; /* Separación del borde derecho */
+}
+
+/* Asegurar que el párrafo dentro de la descripción tenga el color correcto */
+.descripcion-producto p {
+    color: #333333; /* Color de texto para el párrafo */
+    margin: 0;
+    line-height: 1.5;
+}
+
+
 .footer {
 background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../imgs/FondoBanner.png);
 background-size: cover;
@@ -92,9 +178,9 @@ z-index: 2;
 }
 
 .separador-horizontal-footer {
- 
-    display: inline-block; 
-    margin-right: 1000px; 
+
+display: inline-block; 
+margin-right: 1000px; 
 }
 
 /* 2. TABLAS Y PRODUCTO */
@@ -107,12 +193,12 @@ height: 100%;
 }
 
 .tabla-productos tr {
-    height: 100%;
+height: 100%;
 }
 
 .tabla-productos td {
-    padding: 20px;
-    vertical-align: top;
+padding: 20px;
+vertical-align: top;
 }
 
 /* Contenedor de producto (columna izquierda) */
@@ -126,10 +212,10 @@ justify-content: flex-start; /* Pega el contenido a la parte superior */
 }
 
 .imagen {
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
-  width: 100%; 
+display: flex; 
+justify-content: center; 
+align-items: center;
+width: 100%; 
 }
 .imagen img {
 max-width: 400px;
