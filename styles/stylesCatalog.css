@@ -51,7 +51,7 @@ p {
 .contenedor-enlaces {
     display: flex;
     gap: 25px;
-    margin-left: 120px;
+    margin-left: 140px;
 }
 
 .enlace {

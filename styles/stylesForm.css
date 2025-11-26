@@ -49,7 +49,7 @@ z-index: 4; /* Aseguramos que esté por encima del header */
 .contenedor-enlaces {
 display: flex;
 gap: 25px; /* Espacio entre ítems de navegación */
-margin-left: 120px;
+margin-left: 140px;
 }
 .enlace { /* Para eliminar el color morado y subrayado típico */
 text-decoration: none;

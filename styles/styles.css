@@ -46,7 +46,7 @@ left: 20px;
 .contenedor-enlaces {
 display: flex; /* Contenedor que alinea los elementos */
 gap: 25px; /* Espacio entre ítems de navegación */
-margin-left: 120px;
+margin-left: 140px;
 }
 .enlace { /* Para eliminar el color morado y subrayado típico */
 text-decoration: none;
