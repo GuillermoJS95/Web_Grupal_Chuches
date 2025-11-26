@@ -399,6 +399,27 @@ caption{
     z-index: 2; /* Asegurar que el texto esté sobre el fondo */
 }
 
+.boton-inicio {
+    display: inline-block;
+    background-color: #69d5ff;
+    color: white;
+    text-decoration: none;
+    /* Elimina el subrayado de enlace */
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.3s ease;
+    width: 40%;
+    max-width: 250px;
+    cursor: url(../imgs/cur223.cur), pointer;
+}
+
+.boton-inicio:hover {
+    background-color: #a4e9f7;
+}
+
 .banner-formulario {
     background-image: url(../imgs/BannerFormulario.png);
     background-size: cover;
@@ -426,7 +447,23 @@ margin: 0 auto;
 padding: 32px;
 background-color: #ffffff;
 border-radius: 20px;
-border: 3px #e6c3e3; /* Borde con puntitos */
+border: 3px #e6c3e3;
+}
+
+::-webkit-scrollbar{
+    width: 30px;
+}
+
+::-webkit-scrollbar-track{
+    background: #eafdff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffd8ea;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    cursor:url(../imgs/cur223.cur), pointer;
 }
 
 

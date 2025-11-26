@@ -272,3 +272,19 @@ h2 { /* El encabezado de otro color, tamaño y subrayado*/
     font-weight: bolder;
     cursor: url(../imgs/cur223.cur), pointer;
 }
+
+::-webkit-scrollbar{
+    width: 30px;
+}
+
+::-webkit-scrollbar-track{
+    background: #eafdff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffd8ea;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    cursor:url(../imgs/cur223.cur), pointer;
+}

@@ -291,9 +291,8 @@ iframe {
     font-family: 'Comfortaa', sans-serif;
     font-weight: bold;
     margin-top: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s ease;
-    width: 80%;
+    width: 40%;
     max-width: 250px;
     cursor: url(../imgs/cur223.cur), pointer;
 }
@@ -301,4 +300,20 @@ iframe {
 .boton-comprar:hover {
     background-color: #e6c3e3;
     /* Para que se ponga clarito al pasarle el ratón*/
+}
+
+::-webkit-scrollbar{
+    width: 30px;
+}
+
+::-webkit-scrollbar-track{
+    background: #eafdff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffd8ea;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    cursor:url(../imgs/cur223.cur), pointer;
 }
